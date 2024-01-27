@@ -1,0 +1,9 @@
+:root{
+    --text-color: #000;
+    --res-color: rgba(0, 0, 0, 0.6);
+    --btn-active: rgba(0, 0, 0, 0.20);
+    --btn-hover: rgba(0, 0, 0, 0.1);
+    --border-color: rgba(128, 128, 128, 0.5);
+    --calc-bg: #fff;
+    --body-bg: #f2f2f2;
+}

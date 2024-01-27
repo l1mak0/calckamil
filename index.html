@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>calc</title>
+        <script src="./calc.js" defer></script>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./light.css" id="theme">
+    </head>
+    <body>
+        <div class="calc">
+            <div class="screen">
+                <div class="numbers"></div>
+                <div class="result active">0</div>
+            </div>
+            <div class="buttons">
+                <div class="btn btn-clear btn-orange btn-ac">AC</div>
+                <div class="btn btn-delete btn-orange btn-delete">←</div>
+                <div class="btn btn-orange btn-calc" data-num="^">x<sup>y</sup></div>
+                <div class="btn btn-orange btn-calc" data-num="÷">÷</div>
+
+                <div class="btn btn-calc" data-num="7">7</div>
+                <div class="btn btn-calc" data-num="8">8</div>
+                <div class="btn btn-calc" data-num="9">9</div>
+                <div class="btn btn-orange btn-calc" data-num="×">×</div>
+
+                <div class="btn btn-calc" data-num="4">4</div>
+                <div class="btn btn-calc" data-num="5">5</div>
+                <div class="btn btn-calc" data-num="6">6</div>
+                <div class="btn btn-orange btn-calc" data-num="-">-</div>
+
+                <div class="btn btn-calc" data-num="1">1</div>
+                <div class="btn btn-calc" data-num="2">2</div>
+                <div class="btn btn-calc" data-num="3">3</div>
+                <div class="btn btn-orange btn-calc" data-num="+">+</div>
+
+                <div class="btn btn-more">•••</div>
+                <div class="btn btn-calc" data-num="0">0</div>
+                <div class="btn btn-calc" data-num=".">.</div>
+                <div class="btn btn-equal">=</div>
+            </div>
+            <div class="moreButtons">
+                <div class="btn btn-color">🌑</div>
+                <div class="btn btn-calc" data-num="(">(</div>
+                <div class="btn btn-calc" data-num=")">)</div>
+                <div class="btn btn-calc" data-num="%">%</div>
+            </div>
+        </div>
+    </body>
+</html>
